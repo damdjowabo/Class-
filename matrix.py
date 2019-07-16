@@ -27,7 +27,7 @@ class Matrix(object):
         self.w = len(grid[0])
 
     #
-    # Primary matrix math methods
+    # Primary matrix math methods . Here we have to define some primary matrix methos
     #############################
  
     def determinant(self):
@@ -237,6 +237,7 @@ class Matrix(object):
         product = []
         
         transposeB = Matrix(transpose(other))
+        # This funtion below have to be comment to run succesfull this part of scrips 
 #        if (self.w == other.h and self.h != other.w) or (self.w == other.h and self.h == other.w):
 #            transposeB = transpose(other)
 #        else:
